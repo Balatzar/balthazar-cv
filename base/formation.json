@@ -1,0 +1,31 @@
+{
+	"Wild Code School": {
+		"Date": "fin 2015",
+		"Localisation": "La Loupe, Eure et Loire",
+		"Quoi": "Formation de cinq mois au développement Web"
+	},
+	
+	"42": {
+		"Date": "Juillet 2015",
+		"Localisation": "Paris",
+		"Quoi": "Piscine de 42 et admission dans l'école. Commencera les cours en novembre 2016."
+    },
+	
+	"CIM Paris": {
+		"Date": "2013 - 2014",
+		"Localisation": "Paris",
+		"Quoi": "Ecole de Jazz, études de batterie."
+    },
+	
+	"Panthéon-Sorbonne": {
+		"Date": "2010 - 2012",
+		"Localisation": "Paris",
+		"Quoi": "Licence de Cinéma"
+    },
+	
+	"Lycée Rémi Belleau": {
+		"Date": "Juillet 2015",
+		"Localisation": "Nogent le Rotrou, Eure et Loire",
+		"Quoi": "Obtention d'un Bac L option Cinéma"
+    }
+}
