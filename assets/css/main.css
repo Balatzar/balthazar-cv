@@ -1,74 +1,110 @@
-/* line 1, ../../sass/main.scss */
+/*VARIABLES*/
+/*TYPOGRAPHIE*/
+/* line 16, ../../sass/main.scss */
+body {
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+}
+
+/* line 22, ../../sass/main.scss */
+header p {
+  display: block;
+  font-size: 12px;
+  margin-left: 5px;
+  font-weight: 400;
+  padding-top: 6px;
+}
+
+/*LAYOUT*/
+/* line 32, ../../sass/main.scss */
 body {
   width: 100vw;
   height: 100vh;
 }
 
-/* line 6, ../../sass/main.scss */
+/* line 37, ../../sass/main.scss */
 .screen {
   width: 100%;
   height: 100%;
   background-color: #CCC;
 }
 
-/* line 12, ../../sass/main.scss */
+/* line 43, ../../sass/main.scss */
 header {
   width: 100%;
   height: 3%;
-  background-color: #BBB;
+  background-image: linear-gradient(to bottom, #7e7a71, #484641);
 }
 
-/* line 18, ../../sass/main.scss */
+/* line 49, ../../sass/main.scss */
 .content {
   width: 100%;
   height: 97%;
 }
 
-/* line 23, ../../sass/main.scss */
+/* line 54, ../../sass/main.scss */
 .taskbar {
   width: 3.5%;
   height: 100%;
-  background-color: darkred;
+  background-color: #721d1e;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
   float: left;
+  box-sizing: border-box;
 }
 
-/* line 30, ../../sass/main.scss */
+/* line 63, ../../sass/main.scss */
 .leftbar {
   width: 12%;
   height: 100%;
-  background-color: #DDD;
+  background-color: #47484b;
   float: left;
 }
 
-/* line 37, ../../sass/main.scss */
+/* line 70, ../../sass/main.scss */
 .brackets {
   width: 84.5%;
   height: 100%;
   float: left;
 }
 
-/* line 43, ../../sass/main.scss */
+/* line 76, ../../sass/main.scss */
 nav {
   width: 100%;
   height: 10%;
-  background-color: #EEE;
+  background-color: #222222;
 }
 
-/* line 49, ../../sass/main.scss */
+/* line 82, ../../sass/main.scss */
 .editor {
   width: 100%;
   height: 90%;
 }
 
-/* line 54, ../../sass/main.scss */
+/* line 87, ../../sass/main.scss */
 .code {
   width: 100%;
   height: 96%;
+  background-color: #3d3f41;
 }
 
-/* line 59, ../../sass/main.scss */
+/* line 93, ../../sass/main.scss */
 footer {
   width: 100%;
   height: 4%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #1c1c1e;
+}
+
+/*IMAGES*/
+/* line 101, ../../sass/main.scss */
+.icon {
+  height: 5%;
+  margin-top: 5px;
+  margin-left: 2px;
+}
+
+/* line 107, ../../sass/main.scss */
+.bin {
+  position: absolute;
+  bottom: 0;
 }
