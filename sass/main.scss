@@ -9,6 +9,10 @@ $lightgrey: #47484b;
 $darkgrey: #222222;
 $bottomgrey: #1c1c1e;
 
+$blue: #64b9b9;
+$green: #9ec14e;
+$orange: #d98768;
+
 $code: 'Source Code Pro';
 
 /*TYPOGRAPHIE*/
@@ -25,6 +29,49 @@ header p {
     margin-left: 5px; 
     font-weight: 400;
     padding-top: 6px;
+}
+
+li {
+    display: inline-block;
+    margin: 10px 10px 0 10px;
+    font-weight: 200;
+    font-size: 11px;
+    color: lighten($topgrey, 50%);
+}
+
+h1 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 16px;
+    color: lighten($topgrey, 50%);
+    margin-top: 15px;
+}
+
+.leftbar p {
+    font-weight: 200;
+    font-size: 11px;
+    color: lighten($topgrey, 40%);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+    
+
+.leftbar li {
+    color: darken(#fff, 10%);
+    margin-left: 20px;
+}
+
+.grey {
+    display: inline;
+    color: lighten($topgrey, 20%);
+}
+
+footer div {
+    font-weight: 200;
+    font-size: 11px;
+    color: lighten($topgrey, 40%);
+    line-height: 20px;
 }
 
 /*LAYOUT*/
@@ -84,16 +131,17 @@ nav {
     height: 90%;
 }
 
-.code {
-    width: 100%;
-    height: 96%;
-    background-color: $grey;
-}
-
 footer {    
     width: 100%;
     height: 4%;
     background-color: $bottomgrey;
+}
+
+footer div {
+    height: 100%;
+    float: right;
+    padding: 0 20px;
+    border-left: 1px solid $grey;
 }
 
 /*IMAGES*/
@@ -107,4 +155,47 @@ footer {
 .bin {
     position: absolute;
     bottom: 0;
+    left: 0;
+}
+
+/*CODE*/
+
+.code {
+    width: 100%;
+    height: 96%;
+    background-color: $grey;
+    font-family: $code;
+}
+
+.html {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.code p {
+    display: inline;
+}
+
+div .grey {
+    margin-right: 40px;
+}
+
+.blue {
+    color: $blue;
+}
+
+.green {
+    color: $green;
+}
+
+.orange {
+    color: $orange;
+}
+
+.one {
+    padding-left: 20px;
+}
+
+.two {
+    padding-left: 40px;
 }

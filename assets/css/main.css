@@ -1,13 +1,13 @@
 /*VARIABLES*/
 /*TYPOGRAPHIE*/
-/* line 16, ../../sass/main.scss */
+/* line 20, ../../sass/main.scss */
 body {
   color: #fff;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 600;
 }
 
-/* line 22, ../../sass/main.scss */
+/* line 26, ../../sass/main.scss */
 header p {
   display: block;
   font-size: 12px;
@@ -16,34 +16,82 @@ header p {
   padding-top: 6px;
 }
 
+/* line 34, ../../sass/main.scss */
+li {
+  display: inline-block;
+  margin: 10px 10px 0 10px;
+  font-weight: 200;
+  font-size: 11px;
+  color: #c7c5c1;
+}
+
+/* line 42, ../../sass/main.scss */
+h1 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 16px;
+  color: #c7c5c1;
+  margin-top: 15px;
+}
+
+/* line 50, ../../sass/main.scss */
+.leftbar p {
+  font-weight: 200;
+  font-size: 11px;
+  color: #afaca6;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 60, ../../sass/main.scss */
+.leftbar li {
+  color: #e6e6e6;
+  margin-left: 20px;
+}
+
+/* line 65, ../../sass/main.scss */
+.grey {
+  display: inline;
+  color: #7e7a71;
+}
+
+/* line 70, ../../sass/main.scss */
+footer div {
+  font-weight: 200;
+  font-size: 11px;
+  color: #afaca6;
+  line-height: 20px;
+}
+
 /*LAYOUT*/
-/* line 32, ../../sass/main.scss */
+/* line 79, ../../sass/main.scss */
 body {
   width: 100vw;
   height: 100vh;
 }
 
-/* line 37, ../../sass/main.scss */
+/* line 84, ../../sass/main.scss */
 .screen {
   width: 100%;
   height: 100%;
   background-color: #CCC;
 }
 
-/* line 43, ../../sass/main.scss */
+/* line 90, ../../sass/main.scss */
 header {
   width: 100%;
   height: 3%;
   background-image: linear-gradient(to bottom, #7e7a71, #484641);
 }
 
-/* line 49, ../../sass/main.scss */
+/* line 96, ../../sass/main.scss */
 .content {
   width: 100%;
   height: 97%;
 }
 
-/* line 54, ../../sass/main.scss */
+/* line 101, ../../sass/main.scss */
 .taskbar {
   width: 3.5%;
   height: 100%;
@@ -53,7 +101,7 @@ header {
   box-sizing: border-box;
 }
 
-/* line 63, ../../sass/main.scss */
+/* line 110, ../../sass/main.scss */
 .leftbar {
   width: 12%;
   height: 100%;
@@ -61,50 +109,102 @@ header {
   float: left;
 }
 
-/* line 70, ../../sass/main.scss */
+/* line 117, ../../sass/main.scss */
 .brackets {
   width: 84.5%;
   height: 100%;
   float: left;
 }
 
-/* line 76, ../../sass/main.scss */
+/* line 123, ../../sass/main.scss */
 nav {
   width: 100%;
   height: 10%;
   background-color: #222222;
 }
 
-/* line 82, ../../sass/main.scss */
+/* line 129, ../../sass/main.scss */
 .editor {
   width: 100%;
   height: 90%;
 }
 
-/* line 87, ../../sass/main.scss */
-.code {
-  width: 100%;
-  height: 96%;
-  background-color: #3d3f41;
-}
-
-/* line 93, ../../sass/main.scss */
+/* line 134, ../../sass/main.scss */
 footer {
   width: 100%;
   height: 4%;
   background-color: #1c1c1e;
 }
 
+/* line 140, ../../sass/main.scss */
+footer div {
+  height: 100%;
+  float: right;
+  padding: 0 20px;
+  border-left: 1px solid #3d3f41;
+}
+
 /*IMAGES*/
-/* line 101, ../../sass/main.scss */
+/* line 149, ../../sass/main.scss */
 .icon {
   height: 5%;
   margin-top: 5px;
   margin-left: 2px;
 }
 
-/* line 107, ../../sass/main.scss */
+/* line 155, ../../sass/main.scss */
 .bin {
   position: absolute;
   bottom: 0;
+  left: 0;
+}
+
+/*CODE*/
+/* line 163, ../../sass/main.scss */
+.code {
+  width: 100%;
+  height: 96%;
+  background-color: #3d3f41;
+  font-family: "Source Code Pro";
+}
+
+/* line 170, ../../sass/main.scss */
+.html {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+/* line 175, ../../sass/main.scss */
+.code p {
+  display: inline;
+}
+
+/* line 179, ../../sass/main.scss */
+div .grey {
+  margin-right: 40px;
+}
+
+/* line 183, ../../sass/main.scss */
+.blue {
+  color: #64b9b9;
+}
+
+/* line 187, ../../sass/main.scss */
+.green {
+  color: #9ec14e;
+}
+
+/* line 191, ../../sass/main.scss */
+.orange {
+  color: #d98768;
+}
+
+/* line 195, ../../sass/main.scss */
+.one {
+  padding-left: 20px;
+}
+
+/* line 199, ../../sass/main.scss */
+.two {
+  padding-left: 40px;
 }
