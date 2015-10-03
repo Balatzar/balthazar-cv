@@ -175,37 +175,52 @@ footer div {
 }
 
 /* line 175, ../../sass/main.scss */
+.html {
+  display: none;
+}
+
+/* line 179, ../../sass/main.scss */
+.js {
+  display: none;
+}
+
+/* line 183, ../../sass/main.scss */
+.scss {
+  display: none;
+}
+
+/* line 187, ../../sass/main.scss */
 .code p {
   display: inline;
   font-weight: 200;
 }
 
-/* line 180, ../../sass/main.scss */
+/* line 192, ../../sass/main.scss */
 div .grey {
   margin-right: 40px;
 }
 
-/* line 184, ../../sass/main.scss */
+/* line 196, ../../sass/main.scss */
 .blue {
   color: #64b9b9;
 }
 
-/* line 188, ../../sass/main.scss */
+/* line 200, ../../sass/main.scss */
 .green {
   color: #9ec14e;
 }
 
-/* line 192, ../../sass/main.scss */
+/* line 204, ../../sass/main.scss */
 .orange {
   color: #d98768;
 }
 
-/* line 196, ../../sass/main.scss */
+/* line 208, ../../sass/main.scss */
 .one {
   padding-left: 20px;
 }
 
-/* line 200, ../../sass/main.scss */
+/* line 212, ../../sass/main.scss */
 .two {
   padding-left: 40px;
 }
