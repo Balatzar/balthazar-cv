@@ -1,13 +1,13 @@
 /*VARIABLES*/
 /*TYPOGRAPHIE*/
-/* line 20, ../../sass/main.scss */
+/* line 21, ../../sass/main.scss */
 body {
   color: #fff;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 600;
 }
 
-/* line 26, ../../sass/main.scss */
+/* line 27, ../../sass/main.scss */
 header p {
   display: block;
   font-size: 12px;
@@ -16,7 +16,7 @@ header p {
   padding-top: 6px;
 }
 
-/* line 34, ../../sass/main.scss */
+/* line 35, ../../sass/main.scss */
 li {
   display: inline-block;
   margin: 10px 10px 0 10px;
@@ -25,7 +25,7 @@ li {
   color: #c7c5c1;
 }
 
-/* line 42, ../../sass/main.scss */
+/* line 43, ../../sass/main.scss */
 h1 {
   text-align: center;
   font-weight: 200;
@@ -34,7 +34,7 @@ h1 {
   margin-top: 15px;
 }
 
-/* line 50, ../../sass/main.scss */
+/* line 51, ../../sass/main.scss */
 .leftbar p {
   font-weight: 200;
   font-size: 11px;
@@ -44,19 +44,19 @@ h1 {
   margin-bottom: 10px;
 }
 
-/* line 60, ../../sass/main.scss */
+/* line 61, ../../sass/main.scss */
 .leftbar li {
   color: #e6e6e6;
   margin-left: 20px;
 }
 
-/* line 65, ../../sass/main.scss */
+/* line 66, ../../sass/main.scss */
 .grey {
   display: inline;
   color: #7e7a71;
 }
 
-/* line 70, ../../sass/main.scss */
+/* line 71, ../../sass/main.scss */
 footer div {
   font-weight: 200;
   font-size: 11px;
@@ -65,33 +65,33 @@ footer div {
 }
 
 /*LAYOUT*/
-/* line 79, ../../sass/main.scss */
+/* line 80, ../../sass/main.scss */
 body {
   width: 100vw;
   height: 100vh;
 }
 
-/* line 84, ../../sass/main.scss */
+/* line 85, ../../sass/main.scss */
 .screen {
   width: 100%;
   height: 100%;
   background-color: #CCC;
 }
 
-/* line 90, ../../sass/main.scss */
+/* line 91, ../../sass/main.scss */
 header {
   width: 100%;
   height: 3%;
   background-image: linear-gradient(to bottom, #7e7a71, #484641);
 }
 
-/* line 96, ../../sass/main.scss */
+/* line 97, ../../sass/main.scss */
 .content {
   width: 100%;
   height: 97%;
 }
 
-/* line 101, ../../sass/main.scss */
+/* line 102, ../../sass/main.scss */
 .taskbar {
   width: 3.5%;
   height: 100%;
@@ -101,7 +101,7 @@ header {
   box-sizing: border-box;
 }
 
-/* line 110, ../../sass/main.scss */
+/* line 111, ../../sass/main.scss */
 .leftbar {
   width: 12%;
   height: 100%;
@@ -109,34 +109,34 @@ header {
   float: left;
 }
 
-/* line 117, ../../sass/main.scss */
+/* line 118, ../../sass/main.scss */
 .brackets {
   width: 84.5%;
   height: 100%;
   float: left;
 }
 
-/* line 123, ../../sass/main.scss */
+/* line 124, ../../sass/main.scss */
 nav {
   width: 100%;
   height: 10%;
   background-color: #222222;
 }
 
-/* line 129, ../../sass/main.scss */
+/* line 130, ../../sass/main.scss */
 .editor {
   width: 100%;
   height: 90%;
 }
 
-/* line 134, ../../sass/main.scss */
+/* line 135, ../../sass/main.scss */
 footer {
   width: 100%;
   height: 4%;
   background-color: #1c1c1e;
 }
 
-/* line 140, ../../sass/main.scss */
+/* line 141, ../../sass/main.scss */
 footer div {
   height: 100%;
   float: right;
@@ -145,14 +145,14 @@ footer div {
 }
 
 /*IMAGES*/
-/* line 149, ../../sass/main.scss */
+/* line 150, ../../sass/main.scss */
 .icon {
   height: 5%;
   margin-top: 5px;
   margin-left: 2px;
 }
 
-/* line 155, ../../sass/main.scss */
+/* line 156, ../../sass/main.scss */
 .bin {
   position: absolute;
   bottom: 0;
@@ -160,52 +160,100 @@ footer div {
 }
 
 /*CODE*/
-/* line 163, ../../sass/main.scss */
+/* line 164, ../../sass/main.scss */
 .code {
   width: 100%;
   height: 96%;
   background-color: #3d3f41;
   font-family: "Source Code Pro";
+  overflow-y: scroll;
 }
 
-/* line 170, ../../sass/main.scss */
+/* line 172, ../../sass/main.scss */
 .section {
   padding-top: 20px;
   padding-left: 20px;
 }
 
-/* line 175, ../../sass/main.scss */
+/* line 177, ../../sass/main.scss */
+.html {
+  display: block;
+}
+
+/* line 181, ../../sass/main.scss */
+.js {
+  display: none;
+}
+
+/* line 185, ../../sass/main.scss */
+.scss {
+  display: none;
+}
+
+/* line 189, ../../sass/main.scss */
+.json {
+  display: none;
+}
+
+/* line 193, ../../sass/main.scss */
 .code p {
   display: inline;
   font-weight: 200;
 }
 
-/* line 180, ../../sass/main.scss */
+/* line 198, ../../sass/main.scss */
 div .grey {
   margin-right: 40px;
 }
 
-/* line 184, ../../sass/main.scss */
+/* line 202, ../../sass/main.scss */
 .blue {
   color: #64b9b9;
 }
 
-/* line 188, ../../sass/main.scss */
+/* line 206, ../../sass/main.scss */
 .green {
   color: #9ec14e;
 }
 
-/* line 192, ../../sass/main.scss */
+/* line 210, ../../sass/main.scss */
 .orange {
   color: #d98768;
 }
 
-/* line 196, ../../sass/main.scss */
+/* line 214, ../../sass/main.scss */
+.what {
+  color: #C2BEA2;
+}
+
+/* line 218, ../../sass/main.scss */
 .one {
   padding-left: 20px;
 }
 
-/* line 200, ../../sass/main.scss */
+/* line 222, ../../sass/main.scss */
 .two {
   padding-left: 40px;
+}
+
+/* line 237, ../../sass/main.scss */
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+}
+
+/* line 242, ../../sass/main.scss */
+::-webkit-scrollbar-thumb {
+  background: slategray;
+}
+
+/* line 246, ../../sass/main.scss */
+::-webkit-scrollbar-track {
+  background: #b8c0c8;
+}
+
+/* line 251, ../../sass/main.scss */
+body {
+  scrollbar-face-color: slategray;
+  scrollbar-track-color: #b8c0c8;
 }
