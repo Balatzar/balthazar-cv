@@ -3,26 +3,47 @@ var navigation = {
     index: ".html",
     competences: ".js",
     formations: ".json",
-    experiences: ".scss"
+    experiences: ".scss",
+    Contact: ".contact",
+    Portfolio: ".portfolio",
+    CV: ".html"
 };
 
-function clicko(li) {
+function clickFile(li) {
     temp.style.display = "none";
     var stock = li.innerHTML;
     var query = "";
     var title = "";
     var stop = 0;
+    var whatLi = 0;
+    var j = 0;
     
-    for (var i = 0; stock[i] != '<'; i++) {
-        query += stock[i];
+    while(stock[j]) {
+        if (stock[j] == '<') {
+            ++whatLi;
+        }
+        ++j;
     }
     
-    for (var i = 0; i < stock.length; i++) {
-        if (stock[i] == '<' || stock[i] == '>')
-            stop++;
-        else if ((stock[i] != '<' && stop == 0) || stop == 2)
+    if (whatLi) {
+        for (var i = 0; stock[i] != '<'; i++) {
+             query += stock[i];
+         }
+    
+        for (var i = 0; i < stock.length; i++) {
+            if (stock[i] == '<' || stock[i] == '>')
+                stop++;
+            else if ((stock[i] != '<' && stop == 0) || stop == 2)
+                title += stock[i];
+        }
+    } else {
+        for (var i = 0; i < stock.length; i++) {
             title += stock[i];
+            query += stock[i];
+        }
     }
+    
+    console.log(title + ' ' + query);
     
     temp = document.querySelector(navigation[query]);
     temp.style.display = "block";

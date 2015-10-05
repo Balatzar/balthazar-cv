@@ -61,6 +61,9 @@ h1 {
 .leftbar li {
     color: darken(#fff, 10%);
     margin-left: 20px;
+}
+
+li {
     cursor: pointer;
 }
 
@@ -224,6 +227,8 @@ div .grey {
     padding-left: 40px;
 }
 
+/*SCROLLBAR*/
+
 @import "compass/css3";
 
 /// Mixin to customize scrollbars
@@ -256,3 +261,9 @@ div .grey {
 }
 
 @include scrollbars(.5em, slategray);
+
+/*AUTRES SECTIONS*/
+
+.contact {
+    display: none;
+}

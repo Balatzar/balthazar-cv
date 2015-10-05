@@ -6,8 +6,8 @@
     
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/main.css">
-    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu:200,400,500,700' rel='stylesheet' type='text/css'>
+     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:200,400,500,700' rel='stylesheet' type='text/css'> 
     
 </head>
 <body>
@@ -27,17 +27,17 @@
            <div class="leftbar">
                <p>Fichiers de travail</p>
                <ul>
-                   <li onclick="clicko(this);">index<div class="grey">.html</div></li>
-                   <li onclick="clicko(this)";>competences<div class="grey">.js</div></li>
-                   <li onclick="clicko(this)";>formations<div class="grey">.json</div></li>
-                   <li onclick="clicko(this);">experiences<div class="grey">.scss</div></li>
+                   <li onclick="clickFile(this);">index<div class="grey">.html</div></li>
+                   <li onclick="clickFile(this);">competences<div class="grey">.js</div></li>
+                   <li onclick="clickFile(this);">formations<div class="grey">.json</div></li>
+                   <li onclick="clickFile(this);">experiences<div class="grey">.scss</div></li>
                </ul>
            </div>
            <div class="brackets">
                <nav>                                                                <ul>
-                       <li>CV</li>
-                       <li>Portfolio</li>
-                       <li>Contact</li>
+                       <li onclick="clickFile(this)">CV</li>
+                       <li onclick="clickFile(this)">Portfolio</li>
+                       <li onclick="clickFile(this)">Contact</li>
                    </ul>
                    <h1 id="title">index.html</h1>
                </nav>
@@ -818,6 +818,18 @@
                            </div>
                            
                        </div> <!--JSON-->
+                       
+                       <div class="contact section">
+                           
+                           <div>contact</div>
+                           
+                       </div> <!--CONTACT-->
+                       
+                       <div class="portfolio section">
+                           
+                           <div>portfolio</div>
+                           
+                       </div> <!--PORTFOLIO-->
                        
                        
                    </div>
