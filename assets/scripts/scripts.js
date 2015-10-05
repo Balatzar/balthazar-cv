@@ -1,12 +1,20 @@
-function initOnCompleteLoad() {
-    
-}
+var temp = document.querySelector(".html");
+var navigation = {
+    index: ".html",
+    competences: ".js",
+    formations: ".json",
+    experiences: ".scss"
+};
 
-document.onreadystatechange = function () {
-  var state = document.readyState
-  if (state == 'interactive') {
-      init()
-  } else if (state == 'complete') {
-      initOnCompleteLoad()
-  }
+function clicko(li) {
+    temp.style.display = "none";
+    var stock = li.innerHTML;
+    var query = "";
+    var title = "";
+    
+    for (var i = 0; stock[i] != '<'; i++) {
+        query += stock[i];
+    }
+    temp = document.querySelector(navigation[query]);
+    temp.style.display = "block";
 }

@@ -48,15 +48,16 @@ h1 {
 .leftbar li {
   color: #e6e6e6;
   margin-left: 20px;
+  cursor: pointer;
 }
 
-/* line 66, ../../sass/main.scss */
+/* line 67, ../../sass/main.scss */
 .grey {
   display: inline;
   color: #7e7a71;
 }
 
-/* line 71, ../../sass/main.scss */
+/* line 72, ../../sass/main.scss */
 footer div {
   font-weight: 200;
   font-size: 11px;
@@ -65,33 +66,33 @@ footer div {
 }
 
 /*LAYOUT*/
-/* line 80, ../../sass/main.scss */
+/* line 81, ../../sass/main.scss */
 body {
   width: 100vw;
   height: 100vh;
 }
 
-/* line 85, ../../sass/main.scss */
+/* line 86, ../../sass/main.scss */
 .screen {
   width: 100%;
   height: 100%;
   background-color: #CCC;
 }
 
-/* line 91, ../../sass/main.scss */
+/* line 92, ../../sass/main.scss */
 header {
   width: 100%;
   height: 3%;
   background-image: linear-gradient(to bottom, #7e7a71, #484641);
 }
 
-/* line 97, ../../sass/main.scss */
+/* line 98, ../../sass/main.scss */
 .content {
   width: 100%;
   height: 97%;
 }
 
-/* line 102, ../../sass/main.scss */
+/* line 103, ../../sass/main.scss */
 .taskbar {
   width: 3.5%;
   height: 100%;
@@ -101,7 +102,7 @@ header {
   box-sizing: border-box;
 }
 
-/* line 111, ../../sass/main.scss */
+/* line 112, ../../sass/main.scss */
 .leftbar {
   width: 12%;
   height: 100%;
@@ -109,34 +110,34 @@ header {
   float: left;
 }
 
-/* line 118, ../../sass/main.scss */
+/* line 119, ../../sass/main.scss */
 .brackets {
   width: 84.5%;
   height: 100%;
   float: left;
 }
 
-/* line 124, ../../sass/main.scss */
+/* line 125, ../../sass/main.scss */
 nav {
   width: 100%;
   height: 10%;
   background-color: #222222;
 }
 
-/* line 130, ../../sass/main.scss */
+/* line 131, ../../sass/main.scss */
 .editor {
   width: 100%;
   height: 90%;
 }
 
-/* line 135, ../../sass/main.scss */
+/* line 136, ../../sass/main.scss */
 footer {
   width: 100%;
   height: 4%;
   background-color: #1c1c1e;
 }
 
-/* line 141, ../../sass/main.scss */
+/* line 142, ../../sass/main.scss */
 footer div {
   height: 100%;
   float: right;
@@ -145,14 +146,14 @@ footer div {
 }
 
 /*IMAGES*/
-/* line 150, ../../sass/main.scss */
+/* line 151, ../../sass/main.scss */
 .icon {
   height: 5%;
   margin-top: 5px;
   margin-left: 2px;
 }
 
-/* line 156, ../../sass/main.scss */
+/* line 157, ../../sass/main.scss */
 .bin {
   position: absolute;
   bottom: 0;
@@ -160,7 +161,7 @@ footer div {
 }
 
 /*CODE*/
-/* line 164, ../../sass/main.scss */
+/* line 165, ../../sass/main.scss */
 .code {
   width: 100%;
   height: 96%;
@@ -169,90 +170,90 @@ footer div {
   overflow-y: scroll;
 }
 
-/* line 172, ../../sass/main.scss */
+/* line 173, ../../sass/main.scss */
 .section {
   padding-top: 20px;
   padding-left: 20px;
 }
 
-/* line 177, ../../sass/main.scss */
+/* line 178, ../../sass/main.scss */
 .html {
   display: block;
 }
 
-/* line 181, ../../sass/main.scss */
+/* line 182, ../../sass/main.scss */
 .js {
   display: none;
 }
 
-/* line 185, ../../sass/main.scss */
+/* line 186, ../../sass/main.scss */
 .scss {
   display: none;
 }
 
-/* line 189, ../../sass/main.scss */
+/* line 190, ../../sass/main.scss */
 .json {
   display: none;
 }
 
-/* line 193, ../../sass/main.scss */
+/* line 194, ../../sass/main.scss */
 .code p {
   display: inline;
   font-weight: 200;
 }
 
-/* line 198, ../../sass/main.scss */
+/* line 199, ../../sass/main.scss */
 div .grey {
   margin-right: 40px;
 }
 
-/* line 202, ../../sass/main.scss */
+/* line 203, ../../sass/main.scss */
 .blue {
   color: #64b9b9;
 }
 
-/* line 206, ../../sass/main.scss */
+/* line 207, ../../sass/main.scss */
 .green {
   color: #9ec14e;
 }
 
-/* line 210, ../../sass/main.scss */
+/* line 211, ../../sass/main.scss */
 .orange {
   color: #d98768;
 }
 
-/* line 214, ../../sass/main.scss */
+/* line 215, ../../sass/main.scss */
 .what {
   color: #C2BEA2;
 }
 
-/* line 218, ../../sass/main.scss */
+/* line 219, ../../sass/main.scss */
 .one {
   padding-left: 20px;
 }
 
-/* line 222, ../../sass/main.scss */
+/* line 223, ../../sass/main.scss */
 .two {
   padding-left: 40px;
 }
 
-/* line 237, ../../sass/main.scss */
+/* line 238, ../../sass/main.scss */
 ::-webkit-scrollbar {
   width: 0.5em;
   height: 0.5em;
 }
 
-/* line 242, ../../sass/main.scss */
+/* line 243, ../../sass/main.scss */
 ::-webkit-scrollbar-thumb {
   background: slategray;
 }
 
-/* line 246, ../../sass/main.scss */
+/* line 247, ../../sass/main.scss */
 ::-webkit-scrollbar-track {
   background: #b8c0c8;
 }
 
-/* line 251, ../../sass/main.scss */
+/* line 252, ../../sass/main.scss */
 body {
   scrollbar-face-color: slategray;
   scrollbar-track-color: #b8c0c8;
