@@ -152,9 +152,9 @@ footer div {
 /*IMAGES*/
 
 .icon {
-    height: 5%;
-    margin-top: 5px;
-    margin-left: 2px;
+    width: 3vw;
+    margin-top: 0.5vh;
+    margin-left: 0.2vw;
 }
 
 .bin {
@@ -234,11 +234,7 @@ div .grey {
 /// Mixin to customize scrollbars
 /// Beware, this does not work in all browsers
 /// @author Hugo Giraudel
-/// @param {Length} $size - Horizontal scrollbar's height and vertical scrollbar's width
-/// @param {Color} $foreground-color - Scrollbar's color
-/// @param {Color} $background-color [mix($primary, white, 75%)] - Scrollbar's color
-/// @example scss - Scrollbar styling
-///   @include scrollbars(.5em, slategray);
+
 @mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white, 50%)) {
   ::-webkit-scrollbar {
       width:  $size;
@@ -265,5 +261,9 @@ div .grey {
 /*AUTRES SECTIONS*/
 
 .contact {
+    display: none;
+}
+
+.portfolio {
     display: none;
 }

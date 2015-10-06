@@ -152,9 +152,9 @@ footer div {
 /*IMAGES*/
 /* line 154, ../../sass/main.scss */
 .icon {
-  height: 5%;
-  margin-top: 5px;
-  margin-left: 2px;
+  width: 3vw;
+  margin-top: 0.5vh;
+  margin-left: 0.2vw;
 }
 
 /* line 160, ../../sass/main.scss */
@@ -242,30 +242,35 @@ div .grey {
 }
 
 /*SCROLLBAR*/
-/* line 243, ../../sass/main.scss */
+/* line 239, ../../sass/main.scss */
 ::-webkit-scrollbar {
   width: 0.5em;
   height: 0.5em;
 }
 
-/* line 248, ../../sass/main.scss */
+/* line 244, ../../sass/main.scss */
 ::-webkit-scrollbar-thumb {
   background: slategray;
 }
 
-/* line 252, ../../sass/main.scss */
+/* line 248, ../../sass/main.scss */
 ::-webkit-scrollbar-track {
   background: #b8c0c8;
 }
 
-/* line 257, ../../sass/main.scss */
+/* line 253, ../../sass/main.scss */
 body {
   scrollbar-face-color: slategray;
   scrollbar-track-color: #b8c0c8;
 }
 
 /*AUTRES SECTIONS*/
-/* line 267, ../../sass/main.scss */
+/* line 263, ../../sass/main.scss */
 .contact {
+  display: none;
+}
+
+/* line 267, ../../sass/main.scss */
+.portfolio {
   display: none;
 }

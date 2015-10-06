@@ -12,13 +12,10 @@ var navigation = {
 function clickFile(li) {
     temp.style.display = "none";
     var stock = li.innerHTML;
-    var query = "";
-    var title = "";
-    var stop = 0;
-    var whatLi = 0;
-    var j = 0;
+    var query, title = "";
+    var stop, whatLi, j = 0;
     
-    while(stock[j]) {
+    while (stock[j]) {
         if (stock[j] == '<') {
             ++whatLi;
         }
@@ -42,8 +39,6 @@ function clickFile(li) {
             query += stock[i];
         }
     }
-    
-    console.log(title + ' ' + query);
     
     temp = document.querySelector(navigation[query]);
     temp.style.display = "block";
