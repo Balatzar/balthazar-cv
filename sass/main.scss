@@ -197,6 +197,7 @@ footer div {
 .code p {
     display: inline;
     font-weight: 200;
+    margin-left: -4px;
 }
 
 div .grey {
@@ -266,4 +267,26 @@ div .grey {
 
 .portfolio {
     display: none;
+}
+
+/*MODALES*/
+
+.modal {
+  position: fixed;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  margin: 20px;
+}
+
+.settings {
+  margin-left: 0;
+  p {
+    display: inline-block;
+    font-size: 12px;
+  }
+}
+
+input {
+  display: inline-block;
 }

@@ -12,10 +12,13 @@ var navigation = {
 function clickFile(li) {
     temp.style.display = "none";
     var stock = li.innerHTML;
-    var query, title = "";
-    var stop, whatLi, j = 0;
+    var query = "";
+    var title = "";
+    var stop = 0;
+    var whatLi = 0;
+    var j = 0;
     
-    while (stock[j]) {
+    while(stock[j]) {
         if (stock[j] == '<') {
             ++whatLi;
         }

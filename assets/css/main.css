@@ -204,73 +204,99 @@ footer div {
 .code p {
   display: inline;
   font-weight: 200;
+  margin-left: -4px;
 }
 
-/* line 202, ../../sass/main.scss */
+/* line 203, ../../sass/main.scss */
 div .grey {
   margin-right: 40px;
 }
 
-/* line 206, ../../sass/main.scss */
+/* line 207, ../../sass/main.scss */
 .blue {
   color: #64b9b9;
 }
 
-/* line 210, ../../sass/main.scss */
+/* line 211, ../../sass/main.scss */
 .green {
   color: #9ec14e;
 }
 
-/* line 214, ../../sass/main.scss */
+/* line 215, ../../sass/main.scss */
 .orange {
   color: #d98768;
 }
 
-/* line 218, ../../sass/main.scss */
+/* line 219, ../../sass/main.scss */
 .what {
   color: #C2BEA2;
 }
 
-/* line 222, ../../sass/main.scss */
+/* line 223, ../../sass/main.scss */
 .one {
   padding-left: 20px;
 }
 
-/* line 226, ../../sass/main.scss */
+/* line 227, ../../sass/main.scss */
 .two {
   padding-left: 40px;
 }
 
 /*SCROLLBAR*/
-/* line 239, ../../sass/main.scss */
+/* line 240, ../../sass/main.scss */
 ::-webkit-scrollbar {
   width: 0.5em;
   height: 0.5em;
 }
 
-/* line 244, ../../sass/main.scss */
+/* line 245, ../../sass/main.scss */
 ::-webkit-scrollbar-thumb {
   background: slategray;
 }
 
-/* line 248, ../../sass/main.scss */
+/* line 249, ../../sass/main.scss */
 ::-webkit-scrollbar-track {
   background: #b8c0c8;
 }
 
-/* line 253, ../../sass/main.scss */
+/* line 254, ../../sass/main.scss */
 body {
   scrollbar-face-color: slategray;
   scrollbar-track-color: #b8c0c8;
 }
 
 /*AUTRES SECTIONS*/
-/* line 263, ../../sass/main.scss */
+/* line 264, ../../sass/main.scss */
 .contact {
   display: none;
 }
 
-/* line 267, ../../sass/main.scss */
+/* line 268, ../../sass/main.scss */
 .portfolio {
   display: none;
+}
+
+/*MODALES*/
+/* line 274, ../../sass/main.scss */
+.modal {
+  position: fixed;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* line 282, ../../sass/main.scss */
+.settings {
+  margin-left: 0;
+}
+/* line 284, ../../sass/main.scss */
+.settings p {
+  display: inline-block;
+  font-size: 12px;
+}
+
+/* line 290, ../../sass/main.scss */
+input {
+  display: inline-block;
 }
