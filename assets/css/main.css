@@ -304,3 +304,79 @@ body {
 input {
   display: inline-block;
 }
+
+/* line 297, ../../sass/main.scss */
+.prez {
+  width: 80vw;
+  height: 70vh;
+  top: 15%;
+  left: 10%;
+  position: fixed;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.95);
+}
+/* line 305, ../../sass/main.scss */
+.prez h1 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 30px;
+}
+/* line 311, ../../sass/main.scss */
+.prez p {
+  color: #fff;
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 40px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+/* line 320, ../../sass/main.scss */
+.prez p img {
+  width: 20px;
+  height: 20px;
+}
+/* line 324, ../../sass/main.scss */
+.prez p .codo {
+  height: 132px;
+  width: 110px;
+  margin-bottom: 20px;
+}
+
+/* line 332, ../../sass/main.scss */
+.x {
+  position: absolute;
+  cursor: pointer;
+  right: 7%;
+  top: 4%;
+}
+
+/* line 339, ../../sass/main.scss */
+.square {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+
+/* line 345, ../../sass/main.scss */
+.cross {
+  height: 50px;
+  width: 2px;
+  background-color: whitesmoke;
+  position: relative;
+  left: 50%;
+  top: -12%;
+  transform: rotate(45deg);
+}
+
+/* line 355, ../../sass/main.scss */
+.cross:after {
+  height: 50px;
+  width: 2px;
+  content: '';
+  background-color: inherit;
+  position: absolute;
+  transform: rotate(-90deg);
+}

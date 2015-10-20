@@ -275,21 +275,88 @@ body {
 /*MODALES*/
 
 .modal {
-position: fixed;
-background-color: #000;
-color: #fff;
-padding: 20px;
-margin: 20px;
+  position: fixed;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  margin: 20px;
 }
 
 .settings {
-margin-left: 0;
-p {
-  display: inline-block;
-  font-size: 12px;
-}
+  margin-left: 0;
+  p {
+    display: inline-block;
+    font-size: 12px;
+  }
 }
 
 input {
-display: inline-block;
+  display: inline-block;
+}
+
+.prez {
+  width: 80vw;
+  height: 70vh;
+  top: 15%;
+  left: 10%;
+  position: fixed;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.95);
+  h1 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  p {
+    color: #fff;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 40px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    img {
+      width: 20px;
+      height: 20px;
+    }
+    .codo {
+      height: 132px;
+      width: 110px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.x {
+  position: absolute;
+  cursor:pointer;
+  right: 7%;
+  top: 4%;
+}
+
+.square {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+
+.cross {
+  height: 50px;
+  width: 2px;
+  background-color: whitesmoke;
+  position: relative;
+  left: 50%;
+  top: -12%;
+  transform: rotate(45deg);
+}
+
+.cross:after {
+  height: 50px;
+  width: 2px;
+  content: '';
+  background-color: inherit;
+  position: absolute;
+  transform: rotate(-90deg);
 }

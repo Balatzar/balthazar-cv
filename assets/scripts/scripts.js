@@ -11,11 +11,26 @@ var navigation = {
 
 function modalSettings() {
   var modal = document.querySelector(".settings");
-  console.log(modal.style);
   if (modal.style.display == "none") {
     modal.setAttribute("style", "display: block");
   } else {
     modal.setAttribute("style", "display: none");
+  }
+}
+
+function closeMain() {
+  var modal = document.querySelector(".prez");
+  modal.style.display = "none";
+}
+
+function changeFont(fs) {
+  var size = fs[4]+fs[5];
+  var p = document.querySelectorAll('.code p')
+  var i = 0
+  while (i < p.length) {
+    var temp = p[i];
+    temp.style.fontSize = size + "px";
+    i++;
   }
 }
 
