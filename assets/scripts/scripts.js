@@ -9,6 +9,16 @@ var navigation = {
     CV: ".html"
 };
 
+function modalSettings() {
+  var modal = document.querySelector(".settings");
+  console.log(modal.style);
+  if (modal.style.display == "none") {
+    modal.setAttribute("style", "display: block");
+  } else {
+    modal.setAttribute("style", "display: none");
+  }
+}
+
 function clickFile(li) {
     temp.style.display = "none";
     var stock = li.innerHTML;
