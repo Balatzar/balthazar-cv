@@ -1,4 +1,6 @@
 var temp = document.querySelector(".html");
+var section = document.querySelectorAll(".section");
+var modal = document.querySelector(".settings");
 var navigation = {
     index: ".html",
     competences: ".js",
@@ -10,7 +12,6 @@ var navigation = {
 };
 
 function modalSettings() {
-  var modal = document.querySelector(".settings");
   if (modal.style.display == "none") {
     modal.setAttribute("style", "display: block");
   } else {
@@ -32,6 +33,7 @@ function changeFont(fs) {
     temp.style.fontSize = size + "px";
     i++;
   }
+  modal.setAttribute("style", "display: none");
 }
 
 function clickFile(li) {
@@ -71,4 +73,30 @@ function clickFile(li) {
     temp = document.querySelector(navigation[query]);
     temp.style.display = "block";
     document.querySelector("h1").innerHTML = title;
+}
+
+function changeMode() {
+  var i = 0;
+  while (i < section.length) {
+    if (section[i].className[0] == 'c' && section[i].className[1] == '-'){
+      section[i].className = section[i].className.replace(/c-/, "")
+    } else {
+      section[i].className = "c-" + section[i].className;
+      section[i].style.display = "none";
+    }
+    i++;
+  }
+  modal.setAttribute("style", "display: none");
+  var page = document.getElementById("title").textContent;
+  var pageTrim = "";
+  var i = 0;
+  while (page[i] != '.')
+    i++;
+  i++;
+  while (page[i]) {
+    pageTrim += page[i];
+    i++;
+  }
+  var show = document.querySelector('.' + pageTrim);
+  show.style.display = "block";
 }

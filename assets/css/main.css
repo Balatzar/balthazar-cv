@@ -380,3 +380,28 @@ input {
   position: absolute;
   transform: rotate(-90deg);
 }
+
+/*BORING*/
+/* line 367, ../../sass/main.scss */
+.classic h1 {
+  color: #fff;
+  font-size: 20px;
+}
+
+/*temp*/
+/* line 375, ../../sass/main.scss */
+.classic {
+  display: none;
+}
+
+/*.section {
+  display: none;
+}
+
+.classic-html {
+  display: block;
+}
+
+.prez {
+  display: none;
+}*/
