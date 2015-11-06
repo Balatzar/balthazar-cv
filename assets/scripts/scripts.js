@@ -44,19 +44,19 @@ function clickFile(li) {
     var stop = 0;
     var whatLi = 0;
     var j = 0;
-    
+
     while(stock[j]) {
         if (stock[j] == '<') {
             ++whatLi;
         }
         ++j;
     }
-    
+
     if (whatLi) {
         for (var i = 0; stock[i] != '<'; i++) {
              query += stock[i];
          }
-    
+
         for (var i = 0; i < stock.length; i++) {
             if (stock[i] == '<' || stock[i] == '>')
                 stop++;
@@ -69,7 +69,7 @@ function clickFile(li) {
             query += stock[i];
         }
     }
-    
+
     temp = document.querySelector(navigation[query]);
     temp.style.display = "block";
     document.querySelector("h1").innerHTML = title;
